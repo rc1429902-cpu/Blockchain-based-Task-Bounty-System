@@ -1,0 +1,16 @@
+[package]
+name = "Blockchain-based-task-Bounty-System"
+version = "1.0.0"
+authors = []
+
+[addresses]
+TaskBounty = "0xb0f9b3cfa482e5337baaf6f014e61c8f97c7e8c255dc5326708fe6b201bb2bd8" 
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
